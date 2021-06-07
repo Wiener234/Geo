@@ -71,3 +71,12 @@
     font-size: 16pt;
     text-align: center;
 }
+
+.Kultur_point{
+    border: 2px;
+    border-color: grey;
+    border-style: solid;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding-left: 5px;
+}
