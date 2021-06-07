@@ -1,0 +1,73 @@
+.head {
+	margin-top: 0px;
+    background-position: center; 
+    height: 266px; 
+    background-repeat: no-repeat; 
+    background-image: url(Pictures/turismo-no-peru-capa\ \(1\).jpg); 
+    color: #FFFFFF; 
+    font-size: 100px;
+}
+
+.image_circel {
+	margin-left: 25%;
+	margin-top: 114px;
+	border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    
+}
+
+.Peru {
+	margin-left: 45%;
+	padding-top: 74px;
+	margin-top: 0px;
+    width: 191px;
+}
+
+.Fortbewegung {
+	margin-top: 28px;
+	padding-left: 10%;
+}
+
+.main{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    
+}
+
+.main_Infrastruktur{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    
+}
+
+.main div{
+    width: 33%;
+}
+
+.main_Infrastruktur .left{
+    width: 10%;
+}
+
+.main_Infrastruktur .middle{
+    width: 80%;
+}
+
+.main_Infrastruktur .right{
+    width: 10%;
+}
+
+.right p{
+    float: right;
+}
+
+.Bildunterschrift{
+    font-size: 16pt;
+    text-align: center;
+}
