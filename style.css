@@ -8,6 +8,10 @@
     font-size: 100px;
 }
 
+body{
+    border: 0px;
+}
+
 .image_circel {
 
 	border-radius: 50%;
@@ -34,6 +38,7 @@
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
+    margin-top: 3px;
     
 }
 
@@ -48,6 +53,12 @@
 
 .main .left{
     width: 20%;
+    border-left: 0px;
+    border-top: 2px;
+    border-right: 2px;
+    border-bottom: 0px;
+    border-color: rgba(128, 128, 128, 0.404);
+    border-style: solid;
 }
 
 .main .middle{
@@ -56,6 +67,7 @@
 
 .main .right{
     width: 20%;
+    
 }
 
 .main_Infrastruktur .left{
