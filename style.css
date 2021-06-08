@@ -9,8 +9,7 @@
 }
 
 .image_circel {
-	margin-left: 25%;
-	margin-top: 114px;
+
 	border-radius: 50%;
     width: 300px;
     height: 300px;
@@ -47,8 +46,16 @@
     
 }
 
-.main div{
-    width: 33%;
+.main .left{
+    width: 20%;
+}
+
+.main .middle{
+    width: 60%;
+}
+
+.main .right{
+    width: 20%;
 }
 
 .main_Infrastruktur .left{
@@ -63,13 +70,14 @@
     width: 10%;
 }
 
-.right p{
+.main .right p{
     float: right;
 }
 
 .Bildunterschrift{
     font-size: 16pt;
-    text-align: center;
+    
+
 }
 
 .Kultur_point{
@@ -80,3 +88,54 @@
     border-radius: 10px;
     padding-left: 5px;
 }
+
+.main2{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    margin-top: 15%;
+    margin-right: 0%;
+
+}
+
+.middle{
+    display: inline;
+}
+
+.middle .main2 .left2 {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    padding-left: 20%;
+    /* padding-top: 55%; */
+
+}
+
+.middle .main2 .right2 {
+    width: 50%;
+
+}
+
+
+
+.middle .main2 .middle2{
+    width: 30%;
+    /* display: flex;
+    align-items: center; */
+    padding-left: 2%;
+    padding-right: 0%;
+
+}
+
+.p2 {
+    padding-left: 5%;
+}
+
+.p3 {
+    padding-left: 5%;
+}
+
+
+
