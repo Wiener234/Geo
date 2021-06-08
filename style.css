@@ -271,7 +271,7 @@ img{
     display: none;
 }
 
-@media screen and (max-width: 1918px){
+@media screen and (max-width: 0px){
     #overlay{
         position: fixed;
         display: none;
