@@ -9,7 +9,7 @@
 }
 
 body{
-    border: 0px;
+    margin: 0px;
 }
 
 .image_circel {
@@ -53,16 +53,17 @@ body{
 
 .main .left{
     width: 20%;
-    border-left: 0px;
-    border-top: 2px;
-    border-right: 2px;
-    border-bottom: 0px;
-    border-color: rgba(128, 128, 128, 0.404);
-    border-style: solid;
 }
 
 .main .middle{
     width: 60%;
+    border-left: 4px;
+    border-top: 0px;
+    border-right: 4px;
+    border-bottom: 0px;
+    border-color: rgba(167, 167, 167, 0.623);
+    border-style: solid;
+    border-radius: 5px;
 }
 
 .main .right{
@@ -71,19 +72,19 @@ body{
 }
 
 .main_Infrastruktur .left{
-    width: 10%;
+    width: 20%;
 }
 
 .main_Infrastruktur .middle{
-    width: 80%;
+    width: 60%;
 }
 
 .main_Infrastruktur .right{
-    width: 10%;
+    width: 20%;
 }
 
 .main .right p{
-    float: right;
+    /* float: right; */
 }
 
 .Bildunterschrift{
@@ -99,6 +100,11 @@ body{
     margin-top: 10px;
     border-radius: 10px;
     padding-left: 5px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
 }
 
 .main2{
@@ -148,6 +154,50 @@ body{
 .p3 {
     padding-left: 5%;
 }
+
+.corona {
+    padding-left: 10%;
+    background-color: rgba(255, 255, 255, 0.486);
+    border-radius: 5px;
+    margin-top: 5px;
+    padding-top: 2px;
+    
+}
+
+.corona a{
+    color: #00eeff;
+    text-decoration: none;
+}
+
+.Ausflugziel{
+    padding-left: 10%;
+}
+
+.Ausflugziel a{
+    color: #00eeff;
+    text-decoration: none;
+}
+
+.Ausflugziel img {
+    width: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.right_img{
+    width: 50%;
+}
+
+.right_img img{
+    height: 200px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
+.text_left{
+    width: 50%;
+}
+
 
 
 
