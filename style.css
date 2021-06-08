@@ -6,6 +6,7 @@
     background-image: url(Pictures/turismo-no-peru-capa\ \(1\).jpg); 
     color: #FFFFFF; 
     font-size: 100px;
+    background-color: grey;
 }
 
 body{
@@ -196,6 +197,13 @@ body{
 
 .text_left{
     width: 50%;
+}
+
+table, th, td{
+    border: 1px solid black;
+}
+table{
+    border-collapse: collapse;
 }
 
 
